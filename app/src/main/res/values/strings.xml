@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Multi Bank</string>
+    <string name="omonat">OMONAT</string>
+    <string name="kredit">KREDIT</string>
+    <string name="omonat_text">Bank Omonatlari</string>
+    <string name="kredit_text">Bank Kreditlari</string>
+    <string name="taklif">TAKLIFLAR</string>
+</resources>

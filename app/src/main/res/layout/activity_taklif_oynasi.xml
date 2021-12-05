@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mikro_bckjpg"
+    tools:context=".TaklifOynasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#245dd6"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Takliflar">
+
+        </TextView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:backgroundTint="#245dd6"
+        android:id="@+id/taklif_card_1"
+        android:layout_marginTop="100dp"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Eng qimmat omonat"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:backgroundTint="#245dd6"
+            android:id="@+id/taklif_card_2"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="20dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Eng arzon kredit"
+                android:textSize="25sp"
+                android:layout_gravity="center">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#245dd6"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Reklama">
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#bdd2ff"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textColor="#96b7fa"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Reklama uchun maydon">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

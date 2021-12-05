@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/fon2"
+    tools:context=".OmonatActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Omonat uchun \nbanklar ro'yxati"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="30sp">
+                    </TextView>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            style="@style/Animation.Design.BottomSheetDialog"
+                            android:id="@+id/agrobankID"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:src="@drawable/agrobank">
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            style="@style/Animation.Design.BottomSheetDialog"
+                            android:id="@+id/sqbID"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:src="@drawable/sqb">
+                        </ImageView>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            style="@style/Animation.Design.BottomSheetDialog"
+                            android:id="@+id/turonbankID"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:src="@drawable/turonbank">
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            style="@style/Animation.Design.BottomSheetDialog"
+                            android:id="@+id/asakaID"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:src="@drawable/asakabank">
+                        </ImageView>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="50dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            style="@style/Animation.Design.BottomSheetDialog"
+                            android:id="@+id/mikrobankID"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:src="@drawable/mikrokreditbank">
+                        </ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="30dp">
+
+                        <ImageView
+                            style="@style/Animation.Design.BottomSheetDialog"
+                            android:id="@+id/ipotekaID"
+                            android:layout_width="130dp"
+                            android:layout_height="130dp"
+                            android:src="@drawable/ipoteka">
+                        </ImageView>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
